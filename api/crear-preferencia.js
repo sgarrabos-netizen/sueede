@@ -175,9 +175,17 @@ export default async function handler(req, res) {
 
           },
 
-          body: JSON.stringify({
-            items: items
-          })
+         body: JSON.stringify({
+  items: items,
+
+  back_urls: {
+    success: "https://sueede.vercel.app/pago-exitoso.html",
+    pending: "https://sueede.vercel.app/pago-pendiente.html",
+    failure: "https://sueede.vercel.app/pago-error.html"
+  },
+
+  auto_return: "approved"
+})
 
         }
 
