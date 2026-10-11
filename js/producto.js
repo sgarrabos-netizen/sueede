@@ -286,87 +286,64 @@ producto.colores.forEach(
     }
 
   );
+/* =====================================================
+   AGREGAR AL CARRITO
+===================================================== */
+
+document
+  .getElementById(
+    "botonAgregarCarrito"
+  )
+  .addEventListener(
+
+    "click",
+
+    function () {
 
 
-
-  /* =====================================================
-     6. WHATSAPP
-  ===================================================== */
-
-  /*
-  Cuando tengas tu número real,
-  cambiamos este valor.
-
-  Formato:
-  código país + característica + número
-
-  Sin:
-  +
-  espacios
-  guiones
-
-  Ejemplo Argentina:
-  54911XXXXXXXX
-  */
+      let carrito =
+        JSON.parse(
+          localStorage.getItem("carrito")
+        ) || [];
 
 
-  const numeroWhatsApp =
-  "5491123039448";
+      const itemCarrito = {
+
+        id:
+          producto.id,
+
+        nombre:
+          producto.nombre,
+
+        precio:
+          producto.precio,
+
+        color:
+          colorSeleccionado,
+
+        foto:
+          producto.fotos[0]
+
+      };
 
 
-function actualizarWhatsApp() {
+      carrito.push(
+        itemCarrito
+      );
 
 
-  const mensajeWhatsApp =
-
-    "Hola! Quiero comprar " +
-    producto.nombre +
-    " en color " +
-    colorSeleccionado +
-    ".";
-const enlaceWhatsApp =
-
-    "https://wa.me/" +
-    numeroWhatsApp +
-    "?text=" +
-    encodeURIComponent(
-      mensajeWhatsApp
-    );
+      localStorage.setItem(
+        "carrito",
+        JSON.stringify(carrito)
+      );
 
 
-  document.getElementById(
-    "botonWhatsApp"
-  ).href =
-    enlaceWhatsApp;
+      window.location.href =
+        "./carrito.html";
 
-}
+    }
 
-
-actualizarWhatsApp();
-
-
-  const mensajeWhatsApp =
-
-    "Hola! Quiero consultar por " +
-    producto.nombre +
-    ".";
-
-
-  const enlaceWhatsApp =
-
-    "https://wa.me/" +
-    numeroWhatsApp +
-    "?text=" +
-    encodeURIComponent(
-      mensajeWhatsApp
-    );
-
-
-  document.getElementById(
-    "botonWhatsApp"
-  ).href =
-    enlaceWhatsApp;
-
+  );
 
 
   /* =====================================================

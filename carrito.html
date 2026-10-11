@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>Carrito · Sueede</title>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+
+  <link
+    rel="stylesheet"
+    href="./css/styles.css"
+  >
+</head>
+
+
+<body>
+
+  <header class="header">
+
+    <nav class="nav">
+
+      <a href="./index.html#tops">
+        Tops
+      </a>
+
+      <a href="./index.html#shorts">
+        Shorts & Minis
+      </a>
+
+      <a href="./index.html#conjuntos">
+        Conjuntos
+      </a>
+
+      <a href="./index.html#accesorios">
+        Accesorios
+      </a>
+
+    </nav>
+
+
+    <a
+      href="./index.html"
+      class="logo"
+    >
+      sueede
+    </a>
+
+
+    <div class="header__right">
+
+      <a
+        href="./carrito.html"
+        class="acceso"
+      >
+        Carrito
+      </a>
+
+    </div>
+
+  </header>
+
+
+  <main class="carrito">
+
+    <h1>
+      Tu carrito
+    </h1>
+
+
+    <div id="listaCarrito">
+    </div>
+
+
+    <section class="entrega">
+
+      <h2>
+        Entrega
+      </h2>
+
+
+      <label class="entrega-opcion">
+
+        <input
+          type="radio"
+          name="envio"
+          value="0"
+          checked
+        >
+
+        Retiro sin cargo
+
+      </label>
+
+
+      <label class="entrega-opcion">
+
+        <input
+          type="radio"
+          name="envio"
+          value="5000"
+        >
+
+        Envío CABA / GBA — $10.000
+
+      </label>
+
+    </section>
+
+
+    <section class="resumen-carrito">
+
+      <p>
+        Subtotal:
+        <strong id="subtotal">$0</strong>
+      </p>
+
+      <p>
+        Envío:
+        <strong id="costoEnvio">$0</strong>
+      </p>
+
+      <p class="total-carrito">
+        Total:
+        <strong id="total">$0</strong>
+      </p>
+
+
+      <button
+        class="boton-pagar"
+        id="botonPagar"
+        type="button"
+      >
+        Pagar con Mercado Pago
+      </button>
+
+    </section>
+
+  </main>
+
+
+  <script src="./js/carrito.js"></script>
+
+</body>
+
+</html>
