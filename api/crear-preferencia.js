@@ -71,7 +71,7 @@ export default async function handler(req, res) {
 
       "conjunto-siena": 60000,
 
-      "cinto-mia": 7000,
+      "cinto-mia": 100,
       "cinto-terra": 22000,
       "cinto-senda": 25000,
       "cinto-oasis": 25000,
