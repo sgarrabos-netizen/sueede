@@ -308,8 +308,7 @@ document
         */
 
         window.location.href =
-          data.sandbox_init_point ||
-          data.init_point;
+  data.init_point;
 
 
       }
