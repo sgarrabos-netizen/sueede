@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Registrarme · sueede</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Outfit:wght@300;400;500;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav" aria-label="Principal">
+      <a href="./index.html">Tienda</a>
+      <a href="./index.html#newsletter">Novedades</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <a href="./index.html" class="logo" aria-label="sueede, inicio">sueede</a>
+    <div class="header__right">
+      <form action="./index.html" method="get">
+        <input class="buscador" type="search" name="q" placeholder="Buscar..." aria-label="Buscar">
+      </form>
+      <a href="./login.html" class="acceso">Ingresar</a>
+    </div>
+  </header>
+  <main class="auth">
+    <section class="auth__box">
+      <h1>Registrarme</h1>
+      <form action="./login.html" method="get">
+        <div class="campo"><label for="mail">Correo electrónico</label><input id="mail" type="email" name="mail" required></div>
+        <div class="campo"><label for="pass">Contraseña</label><input id="pass" type="password" name="password" required></div>
+        <div class="campo"><label for="pass2">Repetir contraseña</label><input id="pass2" type="password" name="password2" required></div>
+        <div class="check"><input type="checkbox" id="terminos" required><label for="terminos">Acepto términos y condiciones</label></div>
+        <button type="submit">Registrarme</button>
+        <p>¿Ya tenés cuenta? <a href="./login.html">Iniciá sesión acá</a></p>
+      </form>
+    </section>
+  </main>
+  <footer class="footer" id="contacto">
+    <a href="./index.html" class="logo">sueede</a>
+    <div class="footer__links">
+      <a href="./index.html">Tienda</a>
+      <a href="./login.html">Ingresar</a>
+      <a href="./register.html">Registrarme</a>
+    </div>
+  </footer>
+</body>
+</html>
