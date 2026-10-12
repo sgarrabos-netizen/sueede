@@ -297,7 +297,7 @@ const PRODUCTOS = [
     categoria: "Accesorios",
     subcategoria: "Cinturones",
 
-    precio: 100,
+    precio: 7000,
 
     descripcion:
       "Cinturón fino de estilo minimalista, ideal para sumar un detalle sutil al look.",
