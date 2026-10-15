@@ -307,7 +307,7 @@ document
         primero intentamos abrir el checkout de prueba.
         */
 
-        window.location.href =
+       window.location.href =
   data.init_point;
 
 

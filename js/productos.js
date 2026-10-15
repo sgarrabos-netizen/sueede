@@ -25,7 +25,7 @@ const PRODUCTOS = [
     nombre: "Top Flecos Marrón Asimétrico",
     categoria: "Tops",
 
-    precio: 28000,
+    precio: 25000,
 
     descripcion:
       "Top asimétrico en tono marrón con flecos, ideal para darle movimiento y personalidad a cualquier look.",
@@ -47,7 +47,7 @@ const PRODUCTOS = [
     nombre: "Top Flecos Crudo",
     categoria: "Tops",
 
-    precio: 28000,
+    precio: 25000,
 
     descripcion:
       "Top en tono crudo con detalle de flecos, liviano y versátil para combinar con tonos neutros y tierra.",
@@ -67,7 +67,7 @@ const PRODUCTOS = [
     nombre: "Top Siena",
     categoria: "Tops",
 
-    precio: 25000,
+    precio: 20000,
 
     descripcion:
       "Top femenino de líneas entalladas y escote delicado. Disponible en marrón y nude.",
@@ -90,7 +90,7 @@ const PRODUCTOS = [
     nombre: "Top Mocha",
     categoria: "Tops",
 
-    precio: 25000,
+    precio: 20000,
 
     descripcion:
       "Top asimétrico de un hombro con caída suave y manga amplia. Disponible en marrón y negro.",
@@ -116,7 +116,7 @@ const PRODUCTOS = [
     nombre: "Short Safari",
     categoria: "Shorts & Minis",
 
-    precio: 42000,
+    precio: 35000,
 
     descripcion:
       "Short en tonos tierra con una estética relajada y canchera, perfecto para looks de verano.",
@@ -139,7 +139,7 @@ const PRODUCTOS = [
     nombre: "Short Flecos Chocolate",
     categoria: "Shorts & Minis",
 
-    precio: 40000,
+    precio: 35000,
 
     descripcion:
       "Short en gamuza color chocolate con flecos, una pieza protagonista con mucha textura y movimiento.",
@@ -160,7 +160,7 @@ const PRODUCTOS = [
     nombre: "Mini Short Chocolate",
     categoria: "Shorts & Minis",
 
-    precio: 30000,
+    precio: 25000,
 
     descripcion:
       "Mini short chocolate de diseño simple y tiro bajo, un básico fácil de combinar.",
@@ -181,7 +181,7 @@ const PRODUCTOS = [
     nombre: "Pollera Dakota",
     categoria: "Shorts & Minis",
 
-    precio: 50000,
+    precio: 40000,
 
     descripcion:
       "Mini en tono marrón con textura tipo gamuza y calce al cuerpo.",
@@ -203,7 +203,7 @@ const PRODUCTOS = [
     nombre: "Mini Noir",
     categoria: "Shorts & Minis",
 
-    precio: 35000,
+    precio: 30000,
 
     descripcion:
       "Mini negra de líneas simples y silueta ajustada, un básico para usar de día o de noche.",
@@ -224,7 +224,7 @@ const PRODUCTOS = [
     nombre: "Mini Siena",
     categoria: "Shorts & Minis",
 
-    precio: 35000,
+    precio: 28000,
 
     descripcion:
       "Mini marrón de tiro bajo y calce al cuerpo, pensada para combinar especialmente con el Top Siena.",
@@ -245,7 +245,7 @@ const PRODUCTOS = [
     nombre: "Mini Arizona",
     categoria: "Shorts & Minis",
 
-    precio: 40000,
+    precio: 35000,
 
     descripcion:
       "Mini de estética western con combinación de tonos oscuros, recortes contrastantes y detalles de tachas.",
@@ -271,7 +271,7 @@ const PRODUCTOS = [
     nombre: "Conjunto Siena",
     categoria: "Conjuntos",
 
-    precio: 60000,
+    precio: 48000,
 
     descripcion:
       "Top y mini en tonos tierra que forman un total look femenino, simple y súper combinable.",
@@ -319,7 +319,7 @@ const PRODUCTOS = [
     categoria: "Accesorios",
     subcategoria: "Cinturones",
 
-    precio: 22000,
+    precio: 20000,
 
     descripcion:
       "Cinturón en tono tierra con hebilla protagonista y estética vintage.",
@@ -340,7 +340,7 @@ const PRODUCTOS = [
     categoria: "Accesorios",
     subcategoria: "Cinturones",
 
-    precio: 25000,
+    precio: 20000,
 
     descripcion:
       "Cinturón ancho con detalles metálicos, pensado para transformar hasta el look más simple.",
@@ -361,7 +361,7 @@ const PRODUCTOS = [
     categoria: "Accesorios",
     subcategoria: "Cinturones",
 
-    precio: 25000,
+    precio: 20000,
 
     descripcion:
       "Cinturón de inspiración boho con textura y detalles que aportan personalidad.",
@@ -374,7 +374,25 @@ const PRODUCTOS = [
       "img/cinto-oasis-1.jpg",
     ]
   },
+{
+  id: "cinto-cacao",
+  nombre: "Cinto Cacao",
+  categoria: "Accesorios",
+  subcategoria: "Cinturones",
 
+  precio: 20000,
+
+  descripcion:
+    "Cinturón marrón con flecos, ideal para sumar un detalle western al look.",
+
+  colores: [
+    "Marrón"
+  ],
+
+  fotos: [
+    "img/cinto-cacao.PNG"
+  ]
+},
 
 
   /* =====================================================
@@ -399,32 +417,10 @@ const PRODUCTOS = [
 
     fotos: [
       "img/llavero-tachas-estrella-1.jpg",
-      "img/llavero-tachas-estrella-2.jpg",
+      "img/llavero-tachas-estrella-2.PNG",
       "img/llavero-tachas-estrella-3.jpg",
     ]
   },
-
-
-  {
-    id: "llavero-rodeo",
-    nombre: "Llavero Rodeo",
-    categoria: "Accesorios",
-    subcategoria: "Llaveros",
-
-    precio: 8000,
-
-    descripcion:
-      "Llavero con corazón, flecos y detalles metálicos de inspiración western.",
-
-    colores: [
-      "Marrón"
-    ],
-
-    fotos: [
-      "img/llavero-rodeo-1.jpg",
-    ]
-  },
-
 
 
   /* =====================================================
