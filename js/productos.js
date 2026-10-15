@@ -390,7 +390,8 @@ const PRODUCTOS = [
   ],
 
   fotos: [
-    "img/cinto-cacao.PNG"
+    "img/cinto-gaucho-2.jpg",
+     "img/cinto-gaucho-1.jpg"
   ]
 },
 
