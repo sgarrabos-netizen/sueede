@@ -56,28 +56,28 @@ export default async function handler(req, res) {
 
     const PRECIOS = {
 
-      "top-flecos-marron": 28000,
-      "top-flecos-crudo": 28000,
-      "top-siena": 25000,
-      "top-mocha": 25000,
+      "top-flecos-marron": 25000,
+      "top-flecos-crudo": 25000,
+      "top-siena": 20000,
+      "top-mocha": 20000,
 
-      "short-safari": 42000,
-      "short-flecos-chocolate": 40000,
-      "mini-short-chocolate": 30000,
-      "pollera-dakota": 50000,
-      "mini-noir": 35000,
-      "mini-siena": 35000,
-      "mini-arizona": 40000,
+      "short-safari": 35000,
+      "short-flecos-chocolate": 35000,
+      "mini-short-chocolate": 25000,
+      "pollera-dakota": 40000,
+      "mini-noir": 30000,
+      "mini-siena": 28000,
+      "mini-arizona": 32000,
 
-      "conjunto-siena": 60000,
+      "conjunto-siena":48000,
 
       "cinto-mia": 7000,
-      "cinto-terra": 22000,
-      "cinto-senda": 25000,
-      "cinto-oasis": 25000,
+      "cinto-terra": 20000,
+      "cinto-senda": 20000,
+      "cinto-oasis": 20000,
+      "cinto-cacao": 20000,
 
       "llavero-tachas-estrella": 8000,
-      "llavero-rodeo": 8000,
 
       "collar-daisy": 7000,
       "panuelo-kala": 12000
